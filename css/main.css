@@ -1,0 +1,322 @@
+    /* font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Anonymous Pro', monospace;
+    font-family: 'Montserrat Alternates', sans-serif; */
+
+/***** BASE STYLES *****/
+*{
+	box-sizing: border-box;
+	/* border: 1px solid yellow; */
+  }
+  html {
+	  font-size: 16px;
+  }
+  body {
+	color: #fff;
+	background-color: #1f202b;
+	font-family: 'Anonymous Pro', monospace;
+	font-size: 1em;
+	@media screen and (max-width: 1200px) and (min-width: 768px){
+
+	}
+	
+	
+  }
+  
+  .container-fluid {
+	margin: 0 auto;sc
+	padding: 0;
+	width: 100%;
+	
+  }
+  
+  /***** HEADER *****/
+  header {
+	background-image: url("../img/hero-background.png");
+	background-repeat: no-repeat;
+	height: 716px;
+  }
+  
+  header h1 {
+	color: #fff;
+	display: inline;
+	float: left;
+	font-family: 'Anonymous Pro', monospace;
+	font-size: 30px;
+	margin: 25px 30px 0px 25px;
+  }
+  
+  h1 span {
+	padding-left: 95px;
+  }
+  
+  header nav {
+	float: right;
+	padding: 10px 30px;
+  }
+  
+  header nav ul li {
+	display: inline;
+	font-size: 26px;
+	font-weight: bold;
+	padding: 0 10px;
+	text-transform: lowercase;
+  }
+  
+  header nav ul li a {
+	text-decoration: none;
+	color: #fff;
+  }
+  
+  
+   h2 {
+	color: #fff;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 600;
+	font-size: 72px;
+	margin-bottom: 54px;
+	padding: 309px 105px 109px 95px;
+	text-transform: lowercase;
+	clear: left;
+	z-index: 55;
+  }
+  
+  h2 span {
+	color: #fa0075;
+  }
+  
+  /***** PORTFOLIO *****/
+  .my-portfolio {  /*** h3 ***/
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #fa0075;
+	font-size: 38px;
+	margin: 0 auto;
+	padding-bottom: 100px;
+	text-align: center;
+  }
+  
+  /***** holstee manifesto *****/
+  .rogue-img {
+	float:left;
+	padding-left: 59px;
+	display: inline;
+	clear: both;
+  }
+  
+	/*** h4 ***/
+  .pickings {
+	font-family: 'Anonymous Pro', monospace;
+	font-size: 24px;
+	font-weight: bold;
+	padding-left: 245px;
+	display: inline;
+  
+  }
+  
+  .para-1 {
+	float: right;
+	font-size: 24px;
+	margin-top: 55px;
+	margin-left: 50px;
+	padding-right: 59px;
+	width: 654px;
+  
+  
+  }
+  
+  /*****  jubilee austen *****/
+  /* .col-jubilee {
+	margin-top: 110px;
+	padding-top: 103px;
+  } */
+  
+   .row-2 {
+	 padding-top: 100px;
+	 clear: both;
+   }
+  
+   /*** image ***/
+  .jubilee {
+	float: right;
+	margin-right: 59px;
+	padding-top: 129px;
+  }
+  
+   /*** h4 ***/
+  .austen  {
+	font-family: 'Anonymous Pro', monospace;
+	font-size: 24px;
+	font-weight: bold;
+	margin-left: 59px;
+	display: inline;
+	float: left;
+	width: 502px;
+  
+  
+  }
+  
+  .para-2 {
+	font-size: 24px;
+	margin-top: 99px;
+	padding-top: 100px;
+	padding-left: 59px;
+	width: 646px;
+  }
+  
+  /*****Recipe collection *****/
+  
+   .row-3 {
+	 padding-top: 150px;
+	 clear: both;
+   }
+  
+  /*** image ***/
+  .recipe {
+	float:left;
+	padding-left: 59px;
+	display: inline
+  }
+  
+  /*** h4 ***/
+  .collection {
+	font-family: 'Anonymous Pro', monospace;
+	font-size: 24px;
+	font-weight: bold;
+	margin-top: 110px;
+	padding-left: 245px;
+	display: inline;
+  }
+  
+  .para-3 {
+	float: right;
+	font-size: 24px;
+	margin-top: 55px;
+	margin-left: 50px;
+	padding-right: 59px;
+	width: 654px;
+  }
+  
+  /****** Magic 8-ball*****/
+
+  .row-4 {
+	padding-top: 90px;
+	clear: both;
+  }
+ 
+  /*** image ***/
+ .magic {
+   float: right;
+   margin-right: 20px;
+   padding-top: 80px;
+ }
+ 
+  /*** h4 ***/
+ .ball {
+   font-family: 'Anonymous Pro', monospace;
+   font-size: 24px;
+   font-weight: bold;
+   margin-left: 55px;
+   display: inline;
+   float: right;
+   width: 502px;
+ }
+ 
+ .para-2 {
+   font-size: 24px;
+   margin-top: 50px;
+   padding-top: 20px;
+   padding-left: 59px;
+   width: 646px;
+   float: left;
+ }
+
+  /***** ABOUT SECTION *****/
+  #about {
+	background-image: url("../img/about-me.png");
+	background-repeat: no-repeat;
+	background-size: 1350px;
+	height: 526px;
+	margin-top: 590px;
+	clear: both;
+  }
+  
+  .about {
+	color: #fa0075;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 36px;
+	padding-top: 60px;
+	text-align: auto;
+	text-transform: lowercase;
+	
+ }
+  
+  .about-para {
+	color: #000;
+	font-size: 20px;
+	margin-top: 55px;
+	margin-left: 50px;
+	padding-right: 59px;
+	width: 654px;
+	
+  
+  }
+  
+  /***** CONTACT *****/
+  #contact {
+	height: 392px;
+  }
+  .connect{
+	color: #fa0075;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 36px;
+	text-align: center;
+	text-transform: lowercase;
+	margin-right: 20px;
+  
+  }
+  
+  .col-med-4 {
+	display: block;
+	float:left;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 24px;
+	line-height: .5;
+	margin-left: 25px;
+	padding: 25px 45px;
+	text-align: center;
+	width: 30%;
+  }
+  
+  .col-med-4 ul {
+	display: block;
+	float: left;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 24px;
+	line-height: .5;
+  }
+  
+  .col-med-4 ul li {
+	display: block;
+	float: left;
+	padding: 2px;
+	margin-left: 40px;
+	line-height: .5;
+  }
+  
+  
+  .footer {
+	color: #fa0075;
+	clear: both;
+	font-family: 'Anonymous Pro', monospace;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+  }
+  @media all and (min-width:768px) {
+    /* Tablet styles here */
+ 
+}
+ 
+@media all and (min-width:1200px) {
+    /* Desktop styles here */
+ 
+}
